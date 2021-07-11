@@ -20,7 +20,6 @@ The date format compatibility can be seen [here](https://dygraphs.com/date-forma
 
 ## Run it
 you can run it via Webstorm IDE or [httpserver](https://www.npmjs.com/package/httpserver) or anything you like.
-https://dygraphs.com/date-formats.html
 
 ## License
 MIT
