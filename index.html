@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Lotto & Bitcoin</h1>
+            <i class="is-new"></i>
+        </header>
+        <section>
+            <aside>
+                <h2 class="title">The Irish Lotto</h2>
+                <div class="content aside-content">
+                    <p>
+                        Since 16th April 1988, the Irish Lotto draw takes place every Saturday at 8pm. On 30th May 1990 an additional Wednesday evening draw was introduced.
+                        <br>
+                        <br>
+                        What would EUR 100 in winnings invested on a draw date be worth in Euro now?
+                        <br>
+                        <br>
+                        Enter a date and time in the form to get the next draw date and time, with the current value of your investment.
+                    </p>
+                </div>
+            </aside>
+            <article>
+                <div class="form-wrapper">
+                    <h2>Enter a Date and Time</h2>
+                    <div class="content">
+                        <form id="result-form">
+                            <input type="text" id="result-input">
+                            <button type="submit" class="ripple" id="result-submit">SUBMIT</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="result">
+                    <ul class="result-header">
+                        <li>
+                            DRAW DATE/TIME
+                        </li>
+                        <li>
+                            YOUR BITCOIN'S VALUE
+                        </li>
+                    </ul>
+
+                    <ul class="content result-content" id="result-content">
+                        <!-- slot -->
+                    </ul>
+                </div>
+            </article>
+        </section>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
